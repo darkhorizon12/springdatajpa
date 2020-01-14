@@ -16,6 +16,7 @@ public class MemberDTO {
     private Long id;
     private String name;
     private String teamName;
+    private String password;
 
     public MemberDTO(Member member) {
         this.id = member.getId();
